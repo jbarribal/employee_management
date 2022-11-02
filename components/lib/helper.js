@@ -1,4 +1,4 @@
-const BASE_URL = "http://employee-management-blush-xi.vercel.app"
+const BASE_URL = "https://employee-management-blush-xi.vercel.app"
 
 export const getUsers = async () => {
     const response = await fetch(`${BASE_URL}/api/users/`)
